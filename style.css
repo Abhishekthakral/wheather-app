@@ -83,3 +83,16 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+@media screen and (max-width:400px){
+    .search{
+        width: 80%;
+    }
+    .search input{
+        padding: 10px 15px;
+        margin-right: 8px;
+    }
+    .search button{
+     background: none;
+     color:#fff;
+    }
+}
