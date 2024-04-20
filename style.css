@@ -86,6 +86,7 @@ body{
 @media screen and (max-width:400px){
     .search{
         width: 80%;
+        margin-left:-13px;
     }
     .search input{
         padding: 10px 15px;
