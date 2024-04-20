@@ -8,7 +8,7 @@ async function checkwheather(city){
     console.log(data);
     document.querySelector(".city").innerHTML=data.name;
     document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+" °k";
-    document.querySelector(".humadity").innerHTML=data.humadity+" %";
+    document.querySelector(".humadity").innerHTML=data.main.humidity+" %";
     document.querySelector(".wind").innerHTML=data.wind.speed+" km/h";
 
 }
