@@ -85,15 +85,17 @@ body{
 }
 @media screen and (max-width:500px){
     .search{
-        width: 80%;
+        width: 100%;
         margin-left:-13px;
     }
     .search input{
         padding: 10px 15px;
         margin-right: 8px;
     }
+}
+@media screen and (max-width:400px){
     .search button{
-     background: none;
-     color:#fff;
-    }
+        background: none;
+        color:#fff;
+       }
 }
